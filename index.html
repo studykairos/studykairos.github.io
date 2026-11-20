@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kairos support</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+:root { color-scheme: dark; --bg: #000; --card: #0B0812; --purple: #7B3FF2; --glow: #B48CFF;
+  --text: #fff; --text2: rgba(255,255,255,.6); --track: rgba(255,255,255,.08); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+main { max-width: 700px; margin: 0 auto; padding: 40px 16px 64px; }
+nav { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 32px; font-size: 15px; }
+nav a { color: var(--text2); text-decoration: none; }
+nav a[aria-current] { color: var(--text); }
+nav .brand { color: var(--text); font-weight: 600; margin-right: auto; display: inline-flex; align-items: center;
+  gap: 8px; font-family: ui-rounded, "SF Pro Rounded", -apple-system, sans-serif; }
+nav .brand img { width: 28px; height: 28px; }
+.hero { display: block; width: 112px; height: 112px; margin: 8px 0 20px; }
+h1 { font-size: 32px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 36px 0 8px; }
+p, li { color: rgba(255,255,255,.85); }
+a { color: var(--glow); }
+strong { color: var(--text); }
+code { background: var(--track); padding: 1px 5px; border-radius: 5px; font-size: 14px; }
+hr { border: 0; border-top: 1px solid var(--track); margin: 28px 0; }
+ul { padding-left: 22px; }
+.table { overflow-x: auto; margin: 16px 0; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 10px; border-bottom: 1px solid var(--track); }
+th { color: var(--text2); font-weight: 600; }
+.card { background: color-mix(in srgb, var(--purple) 14%, var(--card)); border: 1px solid rgba(180,140,255,.25);
+  border-radius: 20px; padding: 20px; margin: 24px 0; }
+.card p { margin: 0; }
+a[href^="mailto:"] { overflow-wrap: anywhere; }
+@media (max-width: 360px) { nav { gap: 14px; } }
+footer { margin-top: 48px; color: var(--text2); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<nav><a class="brand" href="./"><img src="logo.png" alt="">Kairos</a><a href="./" aria-current="page">Support</a><a href="privacy/">Privacy</a><a href="terms/">Terms</a></nav>
+<img class="hero" src="logo.png" alt="Kairos app icon: a glass ring with one bright point of light">
+<h1>Kairos support</h1>
+<p>Kairos records a time-lapse while you study and gives you a Focus Score. It works without an account, and
+then nothing leaves your phone.</p>
+<div class="card"><p>Questions, bugs or a report about someone: <a href="mailto:kairos.support101@gmail.com">kairos.support101@gmail.com</a>. We answer reports within 24 hours.</p></div>
+<h2>Common questions</h2>
+<ul>
+<li><strong>Delete your account:</strong> Settings → Account → Delete account. It removes everything you uploaded.</li>
+<li><strong>Stop uploading sessions:</strong> turn off "Count my sessions" in Settings → Account.</li>
+<li><strong>Report or block someone:</strong> press and hold their name on a group's leaderboard.</li>
+<li><strong>Delete a session:</strong> press and hold it in History. Sessions and videos live only on your phone.</li>
+<li><strong>Camera or Photos access:</strong> iOS Settings → Kairos. Kairos can only add to Photos, never read it.</li>
+</ul>
+<h2>The fine print</h2>
+<p><a href="privacy/">Privacy Policy</a> · <a href="terms/">Terms of Use</a></p>
+
+<footer>Kairos, a study app by Aiden Jia.</footer>
+</main>
+</body>
+</html>

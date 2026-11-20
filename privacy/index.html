@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kairos Privacy Policy</title>
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+:root { color-scheme: dark; --bg: #000; --card: #0B0812; --purple: #7B3FF2; --glow: #B48CFF;
+  --text: #fff; --text2: rgba(255,255,255,.6); --track: rgba(255,255,255,.08); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+main { max-width: 700px; margin: 0 auto; padding: 40px 16px 64px; }
+nav { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 32px; font-size: 15px; }
+nav a { color: var(--text2); text-decoration: none; }
+nav a[aria-current] { color: var(--text); }
+nav .brand { color: var(--text); font-weight: 600; margin-right: auto; display: inline-flex; align-items: center;
+  gap: 8px; font-family: ui-rounded, "SF Pro Rounded", -apple-system, sans-serif; }
+nav .brand img { width: 28px; height: 28px; }
+.hero { display: block; width: 112px; height: 112px; margin: 8px 0 20px; }
+h1 { font-size: 32px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 36px 0 8px; }
+p, li { color: rgba(255,255,255,.85); }
+a { color: var(--glow); }
+strong { color: var(--text); }
+code { background: var(--track); padding: 1px 5px; border-radius: 5px; font-size: 14px; }
+hr { border: 0; border-top: 1px solid var(--track); margin: 28px 0; }
+ul { padding-left: 22px; }
+.table { overflow-x: auto; margin: 16px 0; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 10px; border-bottom: 1px solid var(--track); }
+th { color: var(--text2); font-weight: 600; }
+.card { background: color-mix(in srgb, var(--purple) 14%, var(--card)); border: 1px solid rgba(180,140,255,.25);
+  border-radius: 20px; padding: 20px; margin: 24px 0; }
+.card p { margin: 0; }
+a[href^="mailto:"] { overflow-wrap: anywhere; }
+@media (max-width: 360px) { nav { gap: 14px; } }
+footer { margin-top: 48px; color: var(--text2); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<nav><a class="brand" href="../"><img src="../logo.png" alt="">Kairos</a><a href="../">Support</a><a href="../privacy/" aria-current="page">Privacy</a><a href="../terms/">Terms</a></nav>
+<h1>Kairos Privacy Policy</h1>
+<p>Last updated: November 19, 2026</p>
+<p>Kairos is a study app made by Aiden Jia ("we", "us"). This page explains what Kairos collects, where it goes, and the choices you have. The short version: <strong>Kairos works without an account, and then nothing leaves your phone.</strong> If you create an account, only what's listed below is uploaded, and never your video, photos or sound.</p>
+<p>Questions or requests: <a href="mailto:kairos.support101@gmail.com">kairos.support101@gmail.com</a>.</p>
+<hr>
+<h2>1. Without an account</h2>
+<p>You can use all of Kairos's study features without signing in. In that case:</p>
+<ul><li><strong>The camera video stays on your phone.</strong> Kairos records a time-lapse with the front camera and saves it in the app's own storage on your device. It isn't uploaded anywhere.</li><li><strong>Focus measurement happens on your phone.</strong> To work out your Focus Score, Kairos uses Apple's on-device Vision framework to estimate which way your head is pointed, how large your face looks in the frame, how bright the room is, and whether a person is in view. It doesn't recognize who you are or who anyone else is, and it doesn't create a faceprint or any other identifier from your face.</li><li><strong>Your sessions, scores and settings are stored on your phone.</strong></li><li><strong>Coach notes</strong> are written on your phone, either by built-in rules or, on iPhones that support it, by Apple Intelligence running on the device.</li><li><strong>No microphone.</strong> Kairos never records or listens to sound.</li><li><strong>No analytics, ads or tracking.</strong> Kairos has no analytics or advertising tools and makes no network connections when you're signed out.</li></ul>
+<h2>2. With an account (optional)</h2>
+<p>An account lets you join study groups and appear on their weekly leaderboards. You sign in with <strong>Sign in with Apple</strong>. Kairos asks Apple for no name and no email address.</p>
+<p>What we store on our servers:</p>
+<div class="table"><table><thead><tr><th>What</th><th>Why</th><th>Who can see it</th></tr></thead><tbody><tr><td>An account ID from Sign in with Apple</td><td>To keep you signed in</td><td>Only us</td></tr><tr><td>Your username</td><td>So friends know who's who</td><td>Members of your groups</td></tr><tr><td>Groups you create or join (name, emoji, time zone for the weekly reset, invite code), and when you joined</td><td>To run groups</td><td>Members of that group</td></tr><tr><td><strong>Only if you turn on "Count my sessions":</strong> for each new session, its start and end time, length, break time, the subject you typed, the score your phone worked out, and a signals file</td><td>So the server can work out the score again itself and nobody can fake one</td><td>You see your own; group members see only your username and Focus Points on the leaderboard</td></tr></tbody></table></div>
+<p><strong>The signals file</strong> lists, a few times a second, the measurements from section 1: head direction, face size in the frame, room brightness and whether a person was in view, plus when you calibrated and took breaks. It contains <strong>no video, photos, frames, sound or anything from other apps</strong>. Only sessions that end after you turn on "Count my sessions" are uploaded, and you can turn it off any time.</p>
+<p><strong>Face-derived measurements</strong> (head direction and face size) are used only to work out your Focus Score. We never use them for advertising or marketing, never sell or share them, and never use them to identify you or anyone else.</p>
+<p><strong>Service logs.</strong> Our hosting provider keeps routine technical logs of requests to our servers (such as IP address, time and the request made) for security and troubleshooting.</p>
+<p><strong>Reports and blocks.</strong> If you report someone or a group, we store who reported what, the reason, any note you add, and the username or group name at that time, so we can review it. Nobody else sees reports. If you block someone, we store that you blocked them and their username then; they aren't told.</p>
+<h2>3. What other people see</h2>
+<ul><li>Members of your groups see your <strong>username, Focus Points and rank</strong> on that group's leaderboard.</li><li>They don't see your sessions' details, video, photos, subject or score breakdown.</li><li>Nothing about you is public. Groups are invite-only.</li></ul>
+<h2>4. Sharing exports</h2>
+<p>Kairos can export a time-lapse or score card for you to share. The export is created on your phone and goes only where you send it through the iOS share sheet or save it in Photos. Kairos asks only for permission to <strong>add</strong> to your photo library and can't see anything already in it. Once you share an export, how it's handled is up to you and the app you shared it with.</p>
+<h2>5. Who processes the data for us</h2>
+<ul><li><strong>Supabase</strong> (database, file storage and sign-in), hosted on Amazon Web Services in the United States (us-east-1). Supabase processes the data only to run Kairos for us.</li><li><strong>Apple</strong> provides Sign in with Apple, under Apple's own privacy policy.</li></ul>
+<p>We don't sell your data, share it for advertising, or give it to anyone else, except where the law requires it.</p>
+<h2>6. How long we keep it</h2>
+<p>We keep your account data until you delete your account. <strong>Delete account</strong> (Settings → Account) removes your account, profile, group memberships, uploaded sessions and their signals files from our servers. Groups you created stay for their other members, with nothing linking them to you. Sessions and time-lapses on your phone stay there until you delete them or the app. Service logs are kept by our hosting provider for up to 7 days and then deleted.</p>
+<h2>7. Your choices and rights</h2>
+<ul><li>Use Kairos without an account, or sign out at any time.</li><li>Turn "Count my sessions" off at any time to stop uploads.</li><li>Delete your account in the app at any time.</li><li>Delete sessions on your phone from History.</li><li>Turn off camera or Photos access in iOS Settings (the camera is needed to record a session).</li><li>Contact <a href="mailto:kairos.support101@gmail.com">kairos.support101@gmail.com</a> to ask what we hold about you, to correct it, or to have it deleted. Depending on where you live, you may have further rights under local law, and you can complain to your local data protection authority.</li></ul>
+<h2>8. Children</h2>
+<p>Kairos is made for college students and isn't intended for anyone under 13. We don't knowingly collect data from children under 13. If you think a child has created an account, contact us and we'll delete it.</p>
+<h2>9. Security</h2>
+<p>Data is sent over encrypted connections. Our database only allows each person to see what this page says they can see, and files are kept in private storage. No system is perfectly secure, but we limit what we collect so there's little to expose.</p>
+<h2>10. Changes</h2>
+<p>If this policy changes, we'll update the date at the top. If a change affects what's uploaded, the app will tell you before anything new leaves your phone.</p>
+<h2>11. Contact</h2>
+<p>Aiden Jia<br><a href="mailto:kairos.support101@gmail.com">kairos.support101@gmail.com</a></p>
+<footer>Kairos, a study app by Aiden Jia.</footer>
+</main>
+</body>
+</html>
